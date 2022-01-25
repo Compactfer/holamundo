@@ -4,7 +4,7 @@ public class FPCLecturasDatos02 {
     public static void main(String[] args) {
         Scanner s1 = new Scanner(System.in);
         double euros = s1.nextDouble();   
-        System.out.println(euros + " euros son " + (euros*166) + " pesetas.");
+        System.out.println(euros + " euros son " + (euros*166.386) + " pesetas.");
         s1.close();
     }
 }
